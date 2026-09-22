@@ -148,7 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
-.env
+
 .envrc
 .venv
 env/
@@ -220,3 +220,5 @@ __marimo__/
 /pgsql
  másolata.env
 extrafeature.txt
+/postgresql-18.6-4-windows-x64-binaries
+*.zip
