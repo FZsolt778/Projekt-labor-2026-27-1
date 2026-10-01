@@ -7,7 +7,7 @@
 `db-stop.bat` - Stop the database
 
 ```
-PySide6 client  ──HTTP + JSON──►  FastAPI server  ──SQL──►  PostgreSQL
+PySide6 client  ──HTTP + JSON──>  FastAPI server  ──SQL──>  PostgreSQL
   (GUI)                            (port 8000)              (port 5432)
 ```
 
