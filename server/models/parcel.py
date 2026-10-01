@@ -6,12 +6,12 @@ from sqlalchemy import (
     CheckConstraint, Index, func, text
 )
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from app.core.database import Base
+from server.src.database import Base
 
 if TYPE_CHECKING:
-    from app.models.contact import Contact
-    from app.models.warehouse import Warehouse
-    from app.models.user import User
+    from server.models.contact import Contact
+    from server.models.warehouse import Warehouse
+    from server.models.user import User
 
 class ParcelSize(str, Enum):
     S = "S"
