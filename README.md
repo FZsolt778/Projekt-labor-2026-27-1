@@ -22,11 +22,11 @@ PySide6 client  ──HTTP + JSON──>  FastAPI server  ──SQL──>  Post
  ## Create python virtual environments
 1. Install python 3.13.* version
 2. open Projekt-labor-2026-27-1 github project folder in cmd (terminal)
-3. run `db-start.bat`
-4. type `python -m venv .venv`
-5. type `.venv\Scripts\activate`
-6. type `pip install -r requirements.txt`
+3. type `python -m venv .venv`
+4. type `.venv\Scripts\activate`
+5. type `pip install -r requirements.txt`
 
   ## Database migration for SQLAlchemy
-6. (cmd still open)
-9. type `alembic upgrade head`
+1. (cmd still open from "Create python virtual environments")
+2. run `db-start.bat`
+3. type `alembic upgrade head`
